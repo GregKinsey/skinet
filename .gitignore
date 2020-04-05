@@ -1,0 +1,11 @@
+obj
+bin
+appsettings.json
+*.db
+db.lock
+storage.ide*
+*.dtbcache
+*.suo
+applicationhost.config
+*.user
+
