@@ -33,6 +33,7 @@ namespace API
             {
                 var configuration = ConfigurationOptions.Parse(_config
                 .GetConnectionString("Redis"), true);
+
                 return ConnectionMultiplexer.Connect(configuration);
             });
 
